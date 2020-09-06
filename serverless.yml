@@ -1,0 +1,11 @@
+app: mt-jeux-svl
+name: mt-jeux-svl
+org: olivier974
+component: website
+stage: dev
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./build
