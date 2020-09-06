@@ -8,7 +8,7 @@ ServerLessDeploiement:
     - npm config set prefix /usr/local
     - npm install -g serverless
     - npm install
-    - CI=true react-scripts test
+    - CI=true npm test
   script:
     - serverless deploy --stage production --verbose
   environment: production
